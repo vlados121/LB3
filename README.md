@@ -36,3 +36,4 @@ pip install pytest pytest-cov
 ```
 pytest --cov=. --cov-report=html
 ```
+Після виконання команди звіт буде доступний у папці htmlcov/index.html.
