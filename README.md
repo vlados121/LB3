@@ -31,3 +31,5 @@
 1. Встановіть залежності:
 ```bash
 pip install pytest pytest-cov
+2. Запустіть тести з генерацією HTML-звіту покриття:
+pytest --cov=. --cov-report=html
